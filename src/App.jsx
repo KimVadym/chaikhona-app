@@ -126,7 +126,7 @@ import { useMemo, useState } from "react";
 const translations = {
   ru: {
     brand: "Чайхона",
-    heroTitle: "Ресторан как приложение",
+    heroTitle: "ЧАЙХОНА",
     heroText:
       "Восточная кухня, красивые карточки блюд, удобный интерфейс и переключение языков.",
     menu: "Меню",
@@ -144,7 +144,7 @@ const translations = {
   },
   en: {
     brand: "Chaikhona",
-    heroTitle: "Restaurant like an app",
+    heroTitle: "CHAIIKHONA",
     heroText:
       "Eastern cuisine, beautiful food cards, smooth interface, and language switching.",
     menu: "Menu",
@@ -273,6 +273,40 @@ const dishes = [
   },
   {
     id: 6,
+    category: "soup",
+    image: "/images/shurpa.jpg",
+    title: { ru: "Шурпа", en: "Shurpa", kr: "슈르파" },
+    ingredients: {
+      ru: "Мясной бульон",
+      en: "Meat broth",
+      kr: "고기 국",
+    },
+    story: {
+      ru: "Наваристый восточный суп.",
+      en: "Rich soup.",
+      kr: "진한 국물",
+    },
+    price: "9.0",
+  },
+   {
+    id: 7,
+    category: "soup",
+    image: "/images/shurpa.jpg",
+    title: { ru: "Шурпа", en: "Shurpa", kr: "슈르파" },
+    ingredients: {
+      ru: "Мясной бульон",
+      en: "Meat broth",
+      kr: "고기 국",
+    },
+    story: {
+      ru: "Наваристый восточный суп.",
+      en: "Rich soup.",
+      kr: "진한 국물",
+    },
+    price: "9.0",
+  },
+   {
+    id: 8,
     category: "soup",
     image: "/images/shurpa.jpg",
     title: { ru: "Шурпа", en: "Shurpa", kr: "슈르파" },
