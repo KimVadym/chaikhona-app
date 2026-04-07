@@ -485,6 +485,10 @@ const total = cart.reduce(
           <div className="heroMeta">
             <span>⭐ 4.9 {t.rating}</span>
             <span>🕒 {t.hours}</span>
+            <ul class="">
+    <li><a href="tel:01059497681"> 📞  01059497681</a></li>
+    <li><a href="https://maps.app.goo.gl/YHCX6fYMddSZ5s817" target="_blank"> 📍  522-4 Yeonsu-dong, Yeonsu-gu, Incheon</a></li>
+  </ul>
             <span>📍 {t.city}</span>
           </div>
         </div>
